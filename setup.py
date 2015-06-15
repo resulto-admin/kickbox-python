@@ -19,7 +19,10 @@ setup(
         'six >= 1.9.0'
     ],
     packages=[
-        'kickbox'
+        'kickbox',
+        'kickbox.api',
+        'kickbox.error',
+        'kickbox.http_client'
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
